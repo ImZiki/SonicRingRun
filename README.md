@@ -1,5 +1,82 @@
 # SonicRingRun
+## FASE 1
+**Informe del Videojuego 2D - [Nombre del Juego]**
+==================================================
 
+**1\. Introducción**
+--------------------
+
+Este informe detalla la propuesta gráfica del videojuego **[Nombre del Juego]**, un *fangame* inspirado en *Sonic* con una estética retro de 16 bits. Se describen su temática, historia, personajes, escenarios y los recursos gráficos, auditivos y multimedia utilizados en el desarrollo del proyecto.
+
+* * * * *
+
+**2\. Temática y Estilo Artístico**
+-----------------------------------
+
+El juego sigue un estilo **pixel art en 2D**, con animaciones fluidas y colores vibrantes inspirados en los juegos clásicos de plataformas. Se busca recrear la sensación de velocidad característica de los títulos de *Sonic*, combinando **niveles dinámicos**, obstáculos desafiantes y enemigos únicos.
+
+* * * * *
+
+**3\. Historia y Personajes**
+-----------------------------
+
+### **Historia**
+
+El protagonista, **[Nombre del Personaje]**, es un veloz héroe que debe salvar su mundo de las garras del malvado **Dr. [Nombre del Villano]**, quien ha capturado a los habitantes de la isla y los ha convertido en robots. A lo largo de su aventura, el héroe atravesará diferentes zonas llenas de trampas y enemigos mientras recoge anillos dorados para potenciar sus habilidades.
+
+### **Personajes Principales**
+
+-   **[Nombre del Personaje Principal]**: Protagonista del juego, un erizo azul (o cualquier otra variante) con habilidades de súper velocidad.
+-   **Dr. [Nombre del Villano]**: Científico malvado que busca transformar el ecosistema en una fortaleza mecánica.
+-   **Aliados**: Criaturas rescatadas que ayudan al protagonista con mejoras o consejos.
+-   **Enemigos**: Robots guardianes con distintas habilidades y patrones de ataque.
+
+* * * * *
+
+**4\. Escenario y Diseño Gráfico**
+----------------------------------
+
+El mundo del juego está compuesto por diversos niveles con transiciones dinámicas. Se ha diseñado un escenario en **dos partes unidas en un mapa de bits** con detalles animados como cascadas, trampas y plataformas móviles.
+
+### **Formato y Técnica**
+
+-   **Estilo**: Pixel Art en 2D
+-   **Formato Original**: PNG/SVG
+-   **Software Utilizado**: Aseprite, Photoshop, Illustrator
+-   **Formato de Salida**: PNG para web, PDF/TIFF para impresión
+
+* * * * *
+
+**5\. Diseño de Personajes y Logotipo**
+---------------------------------------
+
+El protagonista y los enemigos han sido diseñados en **formato pixel art** con una hoja de sprites animada. El logotipo del juego sigue una estética **retro con tipografía dinámica**, similar a los títulos clásicos de *Sonic*.
+
+### **Detalles Técnicos**
+
+-   **Formato del Personaje**: PNG/SVG
+-   **Formato del Logotipo**: PNG para web, SVG para escalabilidad
+-   **Software Utilizado**: Aseprite, Illustrator, Photoshop
+
+* * * * *
+
+**6\. Tráiler del Videojuego**
+------------------------------
+
+Se ha creado un **tráiler promocional** para captar la esencia del juego, combinando imágenes de gameplay, música original y efectos visuales.
+
+### **Proceso de Creación**
+
+1.  Selección de clips de gameplay y cinemáticas.
+2.  Edición y adición de efectos con **Adobe Premiere / DaVinci Resolve**.
+3.  Inclusión de una banda sonora y efectos de sonido.
+4.  Exportación en formatos optimizados para distintas plataformas.
+
+### **Formatos de Salida**
+
+-   **Web**: MP4 (H.264), WebM (VP9)
+-   **Redes Sociales**: MP4 (H.265)
+-   **Alta Calidad**: MOV (ProRes)
 ## FASE 2
 * * * * *
 
