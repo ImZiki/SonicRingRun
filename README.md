@@ -1,19 +1,19 @@
 # SonicRingRun
 ## FASE 1
-**Informe del Videojuego 2D - [Nombre del Juego]**
+**Informe del Videojuego 2D - Sonic Ring Run**
 ==================================================
 
 **1\. Introducción**
 --------------------
 
-Este informe detalla la propuesta gráfica del videojuego **[Nombre del Juego]**, un *fangame* inspirado en *Sonic* con una estética retro de 16 bits. Se describen su temática, historia, personajes, escenarios y los recursos gráficos, auditivos y multimedia utilizados en el desarrollo del proyecto.
+Esta fase del informe detalla la propuesta gráfica del videojuego **Sonic Ring Run**, un *fangame* inspirado en *Sonic* con una estética retro de 16 bits. Se describen su temática, historia, personajes, escenarios y los recursos gráficos, auditivos y multimedia utilizados en el desarrollo del proyecto.
 
 * * * * *
 
 **2\. Temática y Estilo Artístico**
 -----------------------------------
 
-El juego sigue un estilo **pixel art en 2D**, con animaciones fluidas y colores vibrantes inspirados en los juegos clásicos de plataformas. Se busca recrear la sensación de velocidad característica de los títulos de *Sonic*, combinando **niveles dinámicos**, obstáculos desafiantes y enemigos únicos.
+El juego sigue un estilo **pixel art en 2D**, con animaciones fluidas y colores vibrantes inspirados en los juegos clásicos de plataformas, mas concretamente en Sonic Mania. Se busca recrear la sensación de velocidad característica de los títulos de *Sonic*.
 
 * * * * *
 
@@ -22,28 +22,26 @@ El juego sigue un estilo **pixel art en 2D**, con animaciones fluidas y colores 
 
 ### **Historia**
 
-El protagonista, **[Nombre del Personaje]**, es un veloz héroe que debe salvar su mundo de las garras del malvado **Dr. [Nombre del Villano]**, quien ha capturado a los habitantes de la isla y los ha convertido en robots. A lo largo de su aventura, el héroe atravesará diferentes zonas llenas de trampas y enemigos mientras recoge anillos dorados para potenciar sus habilidades.
+El protagonista, **Sonic**, es un veloz héroe que debe salvar su mundo de las garras del malvado **Dr. Eggman**, quien ha capturado a los habitantes de la isla y los ha convertido en robots. A lo largo de su aventura, el héroe atravesará diferentes zonas llenas de trampas y enemigos mientras recoge anillos dorados para potenciar sus habilidades.
 
 ### **Personajes Principales**
 
--   **[Nombre del Personaje Principal]**: Protagonista del juego, un erizo azul (o cualquier otra variante) con habilidades de súper velocidad.
--   **Dr. [Nombre del Villano]**: Científico malvado que busca transformar el ecosistema en una fortaleza mecánica.
--   **Aliados**: Criaturas rescatadas que ayudan al protagonista con mejoras o consejos.
--   **Enemigos**: Robots guardianes con distintas habilidades y patrones de ataque.
+-   **Sonic**: Protagonista del juego, un erizo azul (o cualquier otra variante) con habilidades de súper velocidad.
+-   **Dr. Eggman**: Científico malvado que busca transformar el ecosistema en una fortaleza mecánica.
+-   **Enemigos**: Los infames Motobugs.
 
 * * * * *
 
 **4\. Escenario y Diseño Gráfico**
 ----------------------------------
 
-El mundo del juego está compuesto por diversos niveles con transiciones dinámicas. Se ha diseñado un escenario en **dos partes unidas en un mapa de bits** con detalles animados como cascadas, trampas y plataformas móviles.
+El mundo del juego está compuesto por el mapa de **Chemical Plant**, los sprites de **Sonic** y de los **Motobugs**
 
 ### **Formato y Técnica**
 
 -   **Estilo**: Pixel Art en 2D
--   **Formato Original**: PNG/SVG
--   **Software Utilizado**: Aseprite, Photoshop, Illustrator
--   **Formato de Salida**: PNG para web, PDF/TIFF para impresión
+-   **Formato Original**: PNG
+-   **Formato de Salida**: PNG para web.
 
 * * * * *
 
@@ -52,11 +50,18 @@ El mundo del juego está compuesto por diversos niveles con transiciones dinámi
 
 El protagonista y los enemigos han sido diseñados en **formato pixel art** con una hoja de sprites animada. El logotipo del juego sigue una estética **retro con tipografía dinámica**, similar a los títulos clásicos de *Sonic*.
 
+Los assets del videojuego han sido proporcionados por [FreeCodeCamp](https://www.freecodecamp.org/news/code-a-sonic-infinite-runner-game-in-javascript/) en un curso gratuito.
+
+![sonic](https://github.com/user-attachments/assets/6438cb14-5444-4db8-90cd-3f657f840023)
+
+El logotipo, fue obtenido de la web [CityPNG](https://www.citypng.com/png-download/26991) con licencia gratuita para uso no comercial
+
+![logo-2](https://github.com/user-attachments/assets/cb82b0bb-4b23-40b6-bce5-8e2a499c93cb)
+
 ### **Detalles Técnicos**
 
 -   **Formato del Personaje**: PNG/SVG
--   **Formato del Logotipo**: PNG para web, SVG para escalabilidad
--   **Software Utilizado**: Aseprite, Illustrator, Photoshop
+-   **Formato del Logotipo**: PNG para web
 
 * * * * *
 
@@ -68,15 +73,35 @@ Se ha creado un **tráiler promocional** para captar la esencia del juego, combi
 ### **Proceso de Creación**
 
 1.  Selección de clips de gameplay y cinemáticas.
-2.  Edición y adición de efectos con **Adobe Premiere / DaVinci Resolve**.
-3.  Inclusión de una banda sonora y efectos de sonido.
-4.  Exportación en formatos optimizados para distintas plataformas.
+2.  Edición y adición de efectos con **CapCut**.
+3.  Inclusión de una banda sonora y efectos de sonido cortesía de [Pandabeats Music](https://pandabeatsmusic.com).
 
 ### **Formatos de Salida**
 
--   **Web**: MP4 (H.264), WebM (VP9)
+-   **Web**: MP4 (H.264)
 -   **Redes Sociales**: MP4 (H.265)
--   **Alta Calidad**: MOV (ProRes)
+
+**7\. Tabla de Recursos Utilizados**
+------------------------------------
+
+| Recurso | Tipo de Licencia | Formato Original | Fuente | Formato de Salida | Software Utilizado |
+| --- | --- | --- | --- | --- | --- |
+| **Personajes** | SEGA | PNG/SVG | [Fuente](https://www.freecodecamp.org/news/code-a-sonic-infinite-runner-game-in-javascript/) | PNG | N/A |
+| **Escenarios** | SEGA | PNG | [Fuente](https://www.freecodecamp.org/news/code-a-sonic-infinite-runner-game-in-javascript/) | PNG | N/A |
+| **Logotipo** | CC0 | PNG/SVG | [Fuente](https://www.freecodecamp.org/news/code-a-sonic-infinite-runner-game-in-javascript/) | PNG | N/A |
+| **Spritesheets** | Creación Propia | PNG | [Fuente](https://www.freecodecamp.org/news/code-a-sonic-infinite-runner-game-in-javascript/) | PNG | N/A |
+| **Música** | CC0 / Creación Propia | WAV | [Fuente/Librería](https://pandabeatsmusic.com) | MP4 | N/A |
+| **Efectos de Sonido** | CC0 | WAV | [[Fuente](https://www.freecodecamp.org/news/code-a-sonic-infinite-runner-game-in-javascript/)] | WAV | N/A |
+| **Tráiler** | Creación Propia | MP4 | Creacion propia | MP4 | CapCut |
+
+* * * * *
+
+**8\. Conclusión**
+------------------
+
+El desarrollo del apartado gráfico de **Sonic Ring Run** ha seguido una línea estética coherente con el género de plataformas 2D inspirado en *Sonic*. He utilizado el curso gratuito de FreeCodeCamp.org para la obtencion de assets y diseños y la musica de Pandabeats Music, que ofrece musica de uso libre sin copyright para usos no comerciales.
+
+
 
 ## FASE 2
 
