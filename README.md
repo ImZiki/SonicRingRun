@@ -77,8 +77,8 @@ Se ha creado un **tráiler promocional** para captar la esencia del juego, combi
 -   **Web**: MP4 (H.264), WebM (VP9)
 -   **Redes Sociales**: MP4 (H.265)
 -   **Alta Calidad**: MOV (ProRes)
+
 ## FASE 2
-* * * * *
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcCb7qEz-XUP3BpAK8ZIPkobAcUBrPwEtN3dt3Fz-o4CZY2XSGypJf-QMZ8OTQPWK5yCS6ma3Pahw8K_yrB4kUmcB1XX9sMHQHTiR7yJ9H3smDz8mTNLFnNrHLQ0WH45SrTKpfp?key=RFmgSXqFm1cevPFGde08CbG4)
 
