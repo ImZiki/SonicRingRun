@@ -1,4 +1,4 @@
-# SonicRingRun
+  # SonicRingRun
 ## FASE 1
 **Informe del Videojuego 2D - Sonic Ring Run**
 ==================================================
@@ -73,7 +73,7 @@ Se ha creado un **tráiler promocional** para captar la esencia del juego, combi
 ### **Proceso de Creación**
 
 1.  Selección de clips de gameplay y cinemáticas.
-2.  Edición y adición de efectos con **CapCut**.
+2.  Edición y adición de efectos con **Clipchamp**.
 3.  Inclusión de una banda sonora y efectos de sonido cortesía de [Pandabeats Music](https://pandabeatsmusic.com).
 
 ### **Formatos de Salida**
@@ -92,7 +92,7 @@ Se ha creado un **tráiler promocional** para captar la esencia del juego, combi
 | **Spritesheets** | Creación Propia | PNG | [Fuente](https://www.freecodecamp.org/news/code-a-sonic-infinite-runner-game-in-javascript/) | PNG | N/A |
 | **Música** | CC0 / Creación Propia | WAV | [Fuente/Librería](https://pandabeatsmusic.com) | MP4 | N/A |
 | **Efectos de Sonido** | CC0 | WAV | [[Fuente](https://www.freecodecamp.org/news/code-a-sonic-infinite-runner-game-in-javascript/)] | WAV | N/A |
-| **Tráiler** | Creación Propia | MP4 | Creacion propia | MP4 | CapCut |
+| **Tráiler** | Creación Propia | MP4 | Creacion propia | MP4 | Clipchamp |
 
 * * * * *
 
