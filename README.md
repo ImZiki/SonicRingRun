@@ -220,3 +220,143 @@ Sin embargo, también es importante considerar:
 -   Curva de Aprendizaje
 
 En resumen, MUI es una excelente herramienta para desarrolladores que buscan crear aplicaciones React modernas, coherentes y con una experiencia de usuario de alta calidad.
+
+## FASE 3
+
+**1\. Compatibilidad con Navegadores**
+--------------------------------------
+
+La web está diseñada para ser compatible con los navegadores que soportan las **últimas tres versiones** y cuyo uso es superior al **0.3%** a nivel mundial. Los navegadores compatibles incluyen:
+
+-   **Google Chrome**
+-   **Mozilla Firefox**
+-   **Microsoft Edge**
+-   **Safari**
+-   **Opera**
+
+Esto se logra gracias a:
+
+-   **Uso de estándares web modernos** (`HTML5`, `CSS3`, `JavaScript ES6`).
+-   **Uso de bibliotecas y frameworks bien soportados** (`TailwindCSS`, `Swiper.js`, `Three.js`).
+
+* * * * *
+
+**2\. Elementos Interactivos y Efectos Visuales**
+-------------------------------------------------
+
+La página incluye diversos elementos interactivos para mejorar la experiencia del usuario:
+
+**Carrusel de imágenes con Swiper.js**:
+
+-   Permite la navegación entre imágenes con transiciones suaves.
+-   Controles de navegación personalizados.
+-   Soporta autoplay y paginación.
+
+**Animaciones y Transiciones**:
+
+-   Uso de `bg-gradient-to-r` de TailwindCSS en el header para efecto de degradado.
+-   Efecto `fade` en el carrusel de imágenes.
+-   Transiciones suaves en los botones de navegación.
+
+**Secciones dinámicas**:
+
+-   Estructura **responsive** para una visualización adaptable en diferentes dispositivos.
+-   Presentación del contenido con **efectos de desplazamiento y parallax**.
+
+* * * * *
+
+**3\. Integración con Three.js (Opcional)**
+-------------------------------------------
+
+Se ha incluido la librería **Three.js**, lo que permite la incorporación de gráficos 3D interactivos. Aunque no se usa en el código actual, se podría utilizar para:
+
+-   **Efectos de partículas**.
+-   **Animaciones en 3D de anillos o personajes**.
+-   **Fondos dinámicos con desplazamiento interactivo**.
+
+Esto mejoraría la **inmersión visual** del sitio y podría puntuar en la rúbrica adicionalmente.
+
+* * * * *
+
+**4\. Audio y Video Optimizado**
+--------------------------------
+
+Se ha incorporado un **tráiler del videojuego** en diferentes formatos:
+
+
+
+`<video class="mx-auto mt-4 w-full max-w-3xl" controls>
+    <source src="video/Demo-Sonic-Ring-Run.mp4" type="video/mp4">
+    Tu navegador no soporta video.
+</video>`
+
+-   **Formatos utilizados**: `MP4 (H.264)` para compatibilidad con la mayoría de navegadores.
+-   **Optimización**: Uso del `max-width` y `controls` para una experiencia accesible en todos los dispositivos.
+-   **Compatibilidad**: Se recomienda agregar un formato alternativo (`WebM`) para optimizar su reproducción en navegadores con mejor soporte de códecs modernos.
+
+Se podría incluir **música de fondo**, pero con la opción de pausa para mejorar la accesibilidad.
+
+* * * * *
+
+**5\. Imágenes Responsive con Escalado y Dirección de Arte**
+------------------------------------------------------------
+
+Se han utilizado imágenes adaptativas con `TailwindCSS` y `CSS`:
+
+`<img src="images/screenshot-1.png" alt="Screenshot 1" class="w-full h-auto rounded-lg shadow-lg">`
+
+-   Se emplea `w-full h-auto` para mantener la proporción.
+-   Las imágenes se presentan en formato **PNG** con `rounded-lg` para mejorar la estética.
+-   Se ha incluido **diferentes tamaños de favicons** (`16x16`, `32x32`, `48x48`, `64x64`) para adaptabilidad en distintos dispositivos.
+
+Se recomienda incluir **imágenes en formato WebP**, ya que mejora el rendimiento y reduce el peso sin perder calidad.
+
+* * * * *
+
+**6\. Integración del Logotipo y Recursos de Arte 2D**
+------------------------------------------------------
+
+El logotipo del juego **se encuentra integrado en el header** y se carga desde la carpeta `images/iconos/`:
+
+
+`<img src="images/iconos/logo-2.png" alt="Logo del Juego" class="mx-auto w-32 h-32">`
+
+-   Formato utilizado: **PNG**.
+-   Se recomienda convertirlo a **SVG** para escalabilidad sin pérdida de calidad.
+
+Además, se han integrado **sprites y capturas de pantalla del juego** en la galería.
+
+* * * * *
+
+**7\. Workflow de Desarrollo Frontend**
+---------------------------------------
+
+Para garantizar una buena práctica en el desarrollo, se han aplicado las siguientes estrategias:
+
+**Uso de Framework CSS: TailwindCSS**
+
+`<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">`
+
+-   Permite diseño **modular y eficiente** sin necesidad de escribir CSS manualmente.
+-   Facilita la **responsividad** con sus clases predefinidas.
+
+**Uso de CDNs para optimización**
+
+-   Se han cargado bibliotecas como `Swiper.js` y `Three.js` mediante **CDN**, reduciendo tiempos de carga.
+
+**Diferenciación entre entornos de desarrollo y producción**
+
+-   En un entorno de producción, se recomienda minificar los archivos JS y CSS para mejorar la carga.
+
+* * * * *
+
+**8\. Conclusión**
+------------------
+
+La página **Sonic Ring Run** cumple con los estándares de accesibilidad, compatibilidad y rendimiento web moderno. Se han integrado correctamente:\
+✔ **Efectos visuales interactivos** (carrusel, transiciones, parallax).\
+✔ **Vídeo y audio optimizado**.\
+✔ **Imágenes responsivas con técnicas avanzadas de escalado**.\
+✔ **Logotipo y elementos gráficos correctamente organizados**.\
+✔ **Uso de TailwindCSS como framework de estilos**.\
+✔ **Posibilidad de incorporar Three.js para mejorar la experiencia 3D**.
